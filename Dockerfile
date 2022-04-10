@@ -1,4 +1,4 @@
-FROM alpine:3.11.3
+FROM alpine:3.12.12
 
 RUN apk add --update nginx && rm -rf /var/cache/apk/*
 
